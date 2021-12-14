@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  overflow-y: scroll;
+}
+.logo {
+  background: url("../img/zh-sprite-2x-new.png") no-repeat -429px 0px;
+  width: 120px;
+  height: 40px;
+  background-size: auto 70px;
+  margin-left: 20px;
+  transform: translateY(7px);
+}
+.nav {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px auto;
+  /* width: 76.9%; */
+}
+.nav_menu .ul_list {
+  list-style-type: none;
+  display: flex;
+  margin-right: 15px;
+}
+
+.nav_menu .ul_list li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.733);
+  font-size: 15px;
+  font-weight: bold;
+}
+.nav_menu .ul_list li {
+  margin: 0 0 0 29px;
+  cursor: pointer;
+}
+.color_red {
+  color: red !important;
+}
+.container_top {
+  width: 1280px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 65px 0 0 0;
+}
+.container_top h1 {
+  font-size: 38px;
+  width: 70%;
+  margin: 0 auto 18px;
+}
+.container_top p {
+  font-size: 19px;
+  font-weight: bold;
+  width: 62%;
+  line-height: 30px;
+  margin: 0 auto;
+  padding: 0 0 20px;
+}
+.width_1170 {
+  width: 1170px;
+  margin: 0 auto;
+}
+.container_Fapp {
+  padding: 65px 0 80px;
+  margin: 0 auto;
+}
+.Featured_app {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.crm_logo p {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+}
+.crm_platform {
+  display: flex;
+  background: linear-gradient(to right, #e8f4ff 30%, #fff 100%);
+  width: 47%;
+  padding: 110px 15px 80px 35px;
+  border: 1px solid #f8f8f8;
+}
+.c_crm {
+  margin: 0 0 0 40px;
+}
+.c_crm h3 {
+  font-size: 25px;
+  margin-bottom: 7px;
+}
+.c_crm p {
+  font-size: 15px;
+  margin: 5px 0 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.c_crm button {
+  padding: 8px 18px;
+  margin-bottom: 4px;
+  outline: none;
+  background-color: #f0483e;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.crm_apps {
+  display: flex;
+  padding: 30px;
+  width: 322px;
+}
+.crmapp {
+  margin-left: 12px;
+}
+.crmapp h3 {
+  margin-bottom: 5px;
+}
+.crmapp p {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.crmapp button {
+  outline: none;
+  border: 1px solid #03a9f5;
+  color: #03a9f5;
+  margin: 15px 0px 10px;
+  padding: 6px 13px;
+  font-weight: bold;
+  font-size: 10px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.container_merge {
+  display: flex;
+}
+.container1 {
+  display: flex;
+}
+.border_right {
+  border-right: 1px solid #ececec;
+}
+.border_bottom {
+  border-bottom: 1px solid #ececec;
+}
+.container_2 {
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+.work_remote {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+}
+.bg_color {
+  background: linear-gradient(to right, #ffeded 0%, #fff 100%);
+}
+.work_padding {
+  padding: 80px 15px 92px 35px;
+}
+.zoho_one {
+  display: flex;
+  padding: 40px 90px;
+  align-items: center;
+  border: 1px solid #ececec;
+}
+.zohoone_info {
+  padding-left: 50px;
+}
+.zohoone_info p {
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.zohoone_info a {
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 1px solid #03a9f5;
+  color: #03a9f5;
+  text-decoration: none;
+}
+.zohoone_logo p {
+  font-weight: 600;
+  font-size: 23px;
+  text-align: center;
+}
+.zohoone_logo img {
+  padding: 0px 15px;
+}
+.bundle {
+  position: relative;
+}
+.bundle h6 {
+  position: absolute;
+  padding: 0 6px;
+  background-color: white;
+  top: -9px;
+  left: 46%;
+  z-index: 1;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+.bundle_products {
+  display: flex;
+  padding: 0px 10px 46px 25px;
+  width: 370px;
+}
+.bundle_info h4 {
+  font-size: 21px;
+  margin-bottom: 5px;
+}
+.bundle_info p {
+  line-height: 1.6;
+  max-width: 250px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.bundle_info a {
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 1px solid #03a9f5;
+  color: #03a9f5;
+  text-decoration: none;
+  margin: 2px 0 10px;
+}
+.bundle_info {
+  padding-left: 15px;
+}
+.bundle_addon {
+  padding: 40px 25px 30px 30px;
+  border: 1px solid #ececec;
+  border-top: none;
+}
+.bundle_merge {
+  display: flex;
+  flex-wrap: wrap;
+}
